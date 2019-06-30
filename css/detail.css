@@ -1,0 +1,195 @@
+.crumb_wrap {
+	margin-top: 25px;
+}
+.crumb_wrap a {
+	margin-right: 20px;
+}
+.preview_wrap {
+	height: 1000px;
+}
+/*.product_intro {
+	background-color: skyblue;
+}*/
+.preview_img {
+	width: 398px;
+	height: 398px;
+	margin-top: 10px;
+	/*margin-bottom: 60px;*/
+	border: 1px solid #ededed;
+}
+.preview_list {
+	position: relative;
+}
+.arrow_prev,
+.arrow_next {
+	position: absolute;
+	top: 14px;
+	width: 22px;
+	height: 32px;
+	background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_prev {
+	background: url(../img/arrow-prev.png) no-repeat;
+	left:0;
+}
+
+.arrow_next {
+	right:0;
+	background: url(../img/arrow-next.png) no-repeat;
+}
+.preview_list {
+	margin-top: 60px;
+}
+.preview_list .list-item {
+	width: 315px;
+	height: 60px;
+	margin: auto;
+	
+	line-height: 60px;
+	text-align: center;
+	margin: auto;
+	/*background-color: pink;*/
+}
+.preview_list .list-item li {
+	float: left;
+	margin-left: 6px;
+}
+.preview_list .list-item .current {
+	border: 2px solid #c81623;
+}
+.itemInfo_wrap {
+	width: 718px;
+	height: 1000px;
+}
+.sku_name {
+	height: 30px;
+  	font-size: 16px;
+  	font-weight: 700;
+}
+.itemInfo_wrap .news {
+	font-size: 12px;
+	color: #e12228;
+	height: 32px;
+}
+.summary dl {
+	overflow: hidden;
+}
+.summary_price,
+.summary_promotion {
+	position: relative;
+	background-color: #fee9eb;
+	padding: 10px 0;
+}
+
+.summary dt,
+.summary dd {
+	float: left;
+}
+
+.summary_price dt {
+	width: 55px;
+	padding-left: 10px; 
+	line-height: 31px;
+}
+.summary_price dd i{
+	 	font-size: 24px;
+	 	font-weight: 700;
+	 	color: #e12228;	 	  
+}
+.remark {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+.summary_promotion dd {
+	width: 450px;
+	line-height: 17px;
+	margin-left: 25px;
+}
+.summary_promotion dt {
+	margin-left: 10px;
+}
+.summary_promotion em {
+	display: inline-block;
+	 width: 40px;
+	 height: 22px;
+	 line-height: 22px;
+	 text-align: center;
+	 color: #fff;	
+	 background-color: #c81623;
+
+}
+.summary_support{
+	margin-top: 10px;
+}
+.summary_support dt {
+	margin-left: 10px;
+}
+.summary_support dd {
+	margin-left: 25px;
+}
+.choose_color dt {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.choose_color {
+	margin-top: 20px;
+}
+.choose_color a {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	border:1px solid #ededed;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 40px;
+}
+.choose_color a .current {
+	border-color:1px solid #c81623;
+}
+.choose_btns {
+	margin-top: 20px;
+}
+.choose_amount {
+	float: left;
+	width: 50px;
+	height: 46px;
+	background-color: pink;
+}
+.addcar {
+	float: left;
+
+	width: 142px;
+	height: 46px;
+	margin-left: 10px;
+	background-color: #c81623 ;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+}
+.choose_amount input {
+	width: 33px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.add,
+.reduce {
+	position: absolute;
+	width: 15px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center; 
+	background-color: #f1f1f1;
+}
+.add {
+	top:0;
+	right: 0;
+}
+.reduce  {
+	bottom: 0;
+	right: 0;
+}
